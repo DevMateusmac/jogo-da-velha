@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>Jogo da velha</title>
+  </head>
+  <body>
+    <main class="container">
+      
+      <section id="player-area">
+        <label for="player1">Player 1:</label>
+        <input type="text" name="player1" id="player1">
+        <label for="player2">Player 2:</label>
+        <input type="text" name="player2" id="player2">
+        <button type="button" id="startGameBtn">Start</button><br><br><br><br>
+        <span id="showPlayerTurn">Coloque o nome dos jogadores e clique em "start"</span>
+      </section>
+      
+      
+      <section id="gameArea">
+        <button type="button" class="gameButton" data-region="0.0"></button>
+        <button type="button" class="gameButton" data-region="0.1"></button>
+        <button type="button" class="gameButton" data-region="0.2"></button>
+        <button type="button" class="gameButton" data-region="1.0"></button>
+        <button type="button" class="gameButton" data-region="1.1"></button>
+        <button type="button" class="gameButton" data-region="1.2"></button>
+        <button type="button" class="gameButton" data-region="2.0"></button>
+        <button type="button" class="gameButton" data-region="2.1"></button>
+        <button type="button" class="gameButton" data-region="2.2"></button>
+      </section>
+    
+    </main>
+  </body>
+</html>

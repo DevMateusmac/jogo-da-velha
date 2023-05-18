@@ -1,0 +1,104 @@
+html{
+  font-size: 62.5%;
+}
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:#353437;
+}
+
+.container{
+  text-align: center; 
+  margin-top: 2rem;
+  font-size: 2rem;
+  height: 98vh; 
+}
+
+
+
+#player-area{
+  padding-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+label{
+  font-size: 4rem;
+  color: #008080;
+  font-weight: bolder;
+}
+
+
+#showPlayerTurn{
+  font-size: 5rem;
+  color: #008080;
+}
+
+
+
+#player1, #player2{
+  background-color: transparent;
+  border-radius: 2rem;
+  font-size: 4rem;
+  color: white;
+  padding: .5rem;
+  border-color: white;
+}
+
+
+#startGameBtn, #restartBtn {
+  border-radius: 2rem;
+  font-size: 4rem;
+  padding: .5rem;
+  margin: .5rem;
+  background-color: #353437;
+  border-color: white;
+  color: white;
+}
+
+#startGameBtn:hover, #restartBtn:hover{
+  color: #353437;
+  background-color: #008080;
+}
+
+
+
+#gameArea{
+ background-color: #008080;
+ height: 38rem;
+ width: 38rem;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ align-items: center;
+ align-content: space-between;
+ justify-items: center;
+ gap: 1rem;
+ margin: 10rem auto;
+}
+
+
+.gameButton {
+  height: 12rem;
+  width: 12rem;
+  background-color: #353437;
+  color: white;
+  font-size: 8rem;
+  font-weight: bolder;
+  border: none;
+  cursor: pointer;
+}
+
+
+.playerWinner{
+  color: #00FA9A; 
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
